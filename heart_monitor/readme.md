@@ -1,7 +1,7 @@
 # ReadMe
 
 ## Architecture Diagram of Heart Monitor
--[Link to Diagram, credit: Miguel Mark](https://github.com/mmark9/ec500_spring19_misc/blob/prototype/heart_monitor/ec500_heart_monitor_class_diagram.png)
+- [Link to Diagram, credit: Miguel Mark](https://github.com/mmark9/ec500_spring19_misc/blob/prototype/heart_monitor/ec500_heart_monitor_class_diagram.png)
 
 ## Explanation of Architecture
 - Our first full implementation as a team already implemented asychronous design using threads and queues. Each of the modules does its work in its own thread, threads for the different sensors to read "data" and a thread for the ai data processor to process the information before displaying information on the display.
