@@ -1,6 +1,5 @@
 import sensors
 import display
-import prediction_engine
 import notification_manager
 import notifications_sender
 import realtime_data_processor
