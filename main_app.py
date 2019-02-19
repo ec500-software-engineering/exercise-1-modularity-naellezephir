@@ -1,12 +1,7 @@
-import sensors
-import display
-import prediction_engine
-import notification_manager
-import notifications_sender
-import realtime_data_processor
+from modules.sensors import sensor_readers
+from modules import display, prediction_engine, notification_manager, notifications_sender, realtime_data_processor
 from multiprocessing import Queue
-from common_types import Contact
-
+from modules.common_types import Contact
 
 def main(cmd_args):
     data_queue = Queue()
